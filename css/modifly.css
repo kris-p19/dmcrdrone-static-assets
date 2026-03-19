@@ -1,0 +1,24 @@
+
+
+/* breakpoints */
+@media (max-width: 1600px) {
+      .layout-header.tiny .mainbar .nav-group .btn-login {
+        min-width: auto;
+      }
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
+
+.newssec {
+    background: none !important;
+}
+
+.background-image {
+     background: none !important;
+}

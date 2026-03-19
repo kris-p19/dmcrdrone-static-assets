@@ -1,0 +1,109 @@
+/* Accessibility menu styles extracted from custom.css */
+
+.a11y-toolbar {
+  color: var(--text);
+  border-radius: 10px;
+  padding: 8px;
+  z-index: 9999;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+  display: inline-flex;
+  gap: .25rem;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.a11y-toolbar .a11y-btn {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.a11y-toolbar .a11y-btn[aria-pressed="true"] {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.a11y-toolbar .a11y-sep {
+  opacity: .5;
+  margin: 0 .25rem;
+}
+
+.a11y-toolbar .a11y-reset {
+  border-color: #d33;
+  color: #d33;
+}
+
+.a11y-toolbar .a11y-reset[aria-pressed="true"],
+.a11y-toolbar .a11y-reset:hover {
+  background: #d33;
+  color: #fff;
+}
+
+.a11y-btn {
+  color: #fff;
+  font-weight: 600;
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+
+.a11y-btn.dark {
+  background: #000;
+  color: #fff;
+}
+
+.a11y-btn.hc {
+  background: #FFD400;
+  color: #000;
+}
+
+.a11y-toolbar span {
+  color: #fff;
+  font-size: 13px;
+}
+
+.w3c img {
+  width: 100px;
+}
+
+html.theme-dark .asw-menu {
+  background: #151515 !important;
+  color: #f5f5f5 !important;
+  border: 1px solid #2f2f2f;
+}
+
+html.theme-dark .asw-menu .asw-menu-header,
+html.theme-dark .asw-menu .asw-card-title,
+html.theme-dark .asw-menu .asw-label,
+html.theme-dark .asw-menu .asw-translate,
+html.theme-dark .asw-menu .asw-amount {
+  color: #f5f5f5 !important;
+}
+
+html.theme-dark .asw-menu .asw-adjust-font,
+html.theme-dark .asw-menu .asw-btn {
+  background: #1d1d1d !important;
+  color: #f5f5f5 !important;
+  border-color: #323232 !important;
+}
+
+html.theme-dark .asw-menu .asw-btn.asw-selected {
+  background: #0b62d6 !important;
+  border-color: #0b62d6 !important;
+  color: #ffffff !important;
+}
+
+html.theme-dark .asw-menu .asw-footer {
+  background: #0d0d0d !important;
+  color: #f5f5f5 !important;
+}
