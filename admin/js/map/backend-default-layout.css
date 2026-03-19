@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined");
+@import url("/admin/js/map/dataTables.dataTables.min.css");
+@import url("/admin/js/map/responsive.dataTables.css");
+@import url("/admin/js/map/select2.min.css");
+@import url("/admin/js/map/select2-tailwindcss-theme-plain.min.css");
+@import url("/admin/js/map/bootstrap-material-datetimepicker.css");
+@import url("/admin/js/map/leaflet.css");
+@import url("/admin/js/map/leaflet.draw.css");
+@import url("/admin/js/map/ol.css");
+@import url("/admin/js/map/uppy.min.css");
+
+/* @import url("https://cdn.datatables.net/2.3.4/css/dataTables.dataTables.min.css");
+@import url("https://cdn.datatables.net/responsive/3.0.7/css/responsive.dataTables.css");
+@import url("https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css");
+@import url("https://cdn.jsdelivr.net/gh/erimicel/select2-tailwindcss-theme/dist/select2-tailwindcss-theme-plain.min.css");
+@import url("https://marinemap.dmcr.go.th/theme-mis/absbmdm/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css");
+@import url("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
+@import url("https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css");
+@import url("https://cdn.jsdelivr.net/npm/ol@v10.6.0/ol.css");
+@import url("https://releases.transloadit.com/uppy/v3.3.1/uppy.min.css"); */
+
+/* /admin/js/map */
+
+.mLeftBackOffice {
+    z-index: 2;
+}
+
+#map_datatable {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.nowrap {
+    white-space: nowrap !important;
+}
+
+.btn {
+    min-width: inherit !important;
+}
+
+.map-toolbar {
+    position: absolute;
+    top: 310px;
+    left: 75px;
+    z-index: 2;
+    /* background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px; */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, .12); */
+    padding: 3px;
+    display: none;
+}
+
+
+.map-toolbar button#btnDeleteSelected {
+    border: none;
+    background: #e11d48;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.map-toolbar button#btnDeleteUnSelected {
+    border: none;
+    background: #e34208;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.map-toolbar button#btnUndo {
+    border: none;
+    background: #ffffff;
+    color: #030303;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.map-toolbar button {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.map-toolbar button:disabled {
+    opacity: .7;
+    cursor: not-allowed;
+}
+
+.ol-full-screen.ol-unselectable.ol-control button {
+    cursor: pointer;
+}
