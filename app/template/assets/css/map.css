@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+Thai");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined");
-@import url("/admin/js/map/leaflet.css");
-@import url("/admin/js/map/leaflet.draw.css");
+@import url("https://cdn.jsdelivr.net/gh/kris-p19/dmcrdrone-static-assets@1.0.1/admin/js/map/leaflet.css");
+@import url("https://cdn.jsdelivr.net/gh/kris-p19/dmcrdrone-static-assets@1.0.1/admin/js/map/leaflet.draw.css");
 @import url("https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css");
-@import url("/app/template/assets/cesium/Widgets/widgets.css");
-@import url("/admin/js/map/select2.min.css");
-@import url("/admin/js/map/select2-tailwindcss-theme-plain.min.css");
+@import url("https://cdn.jsdelivr.net/gh/kris-p19/dmcrdrone-static-assets@1.0.1/app/template/assets/cesium/Widgets/widgets.css");
+@import url("https://cdn.jsdelivr.net/gh/kris-p19/dmcrdrone-static-assets@1.0.1/admin/js/map/select2.min.css");
+@import url("https://cdn.jsdelivr.net/gh/kris-p19/dmcrdrone-static-assets@1.0.1/admin/js/map/select2-tailwindcss-theme-plain.min.css");
 
 body {
     font-family: 'Noto Sans Thai', sans-serif;
